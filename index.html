@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <title>95 Degrees</title>
+</head>
+<body>
+    <style>
+               .container{
+            margin: 0 auto;
+            font-size: 22px;
+            margin-top: 40px;
+            font-family: verdana;
+           }
+           a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            margin-left: 1px;
+           }
+        .az {
+            background: rgb(235, 232, 232);
+            width: 300px;
+            margin: 0 auto;
+            height: 50px;
+             padding-top: 15px;
+             border-radius: 5px;
+           }
+        .ru{
+            background:rgb(235, 232, 232);
+            width: 300px;
+            height: 50px;
+            margin: 0 auto;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-radius: 5px;
+            }
+        .en {
+            background: rgb(235, 232, 232);
+            width: 300px;
+            height: 50px;
+            margin: 0 auto;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-radius: 5px;
+        }
+        .deg{
+            margin-top: 30px;
+            margin-left: 170px;
+        }
+        h4{
+           text-align: center;
+            color: rgb(238, 238, 238);
+        }
+        .img{
+          margin-left: 20px;
+          margin-top: 5px;
+        }
+        .photo{
+            width: 100%;
+            height: 700px;
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            background-repeat: no-repeat;
+            z-index: -1;
+
+        }
+
+        
+        @media only screen and (max-width: 450px) {
+            .az {
+                    padding-top: 10px;
+                    width: 250px;
+                    height: 50px; 
+                }
+                .ru {
+                    padding-top: 10px;
+                    width: 250px;
+                    height: 50px;                
+                }
+                .en {
+                    padding-top: 10px;
+                    width: 250px;
+                    height: 50px;                
+                }
+                .img {
+                    position: relative;
+                    top: 5px;
+                    width: 25px;
+                }
+                a {
+                    font-size: 16px;
+                 }
+                h4 {
+                    font-size: 18px;
+                }
+                .photo{
+                    width: 100%;
+                    height:700px;
+                }
+
+        }
+
+        @media only screen and (max-width: 350px) {
+                .az {
+                    padding-top: 10px;
+                    width: 230px;
+                    height: 50px; 
+                               
+                }
+                .ru {
+                    padding-top: 10px;
+                    width: 230px;
+                    height: 50px;                
+                }
+                .en {
+                    padding-top: 10px;
+                    width: 230px;
+                    height: 50px;                
+                }
+                .img{
+                    position: relative;
+                    top: 5px;
+                    width: 22px;
+                }
+                a{
+                    font-size: 16px;
+                    
+                }
+                h4{
+                    font-size: 18px;
+                }
+                .deg{
+                    font-size: 13px;
+                }
+          
+        }
+       
+    </style>
+    <div class="container">
+        <img class="photo" src="img/95.jpg" alt="">
+            <h4> <img src="img/log.png" width="100px" alt=""></h4>
+            <div class="az" onclick="location.href='bruschetta.az/az.html';">  <img class="img" src="img/lang.png" alt=""> <a href="#">Azərbaycan </a> </div>
+            <div class="ru" onclick="location.href='bruschetta.ru/ru.html';">  <img class="img" src="img/ru.png" alt=""><a style="margin-left: 10px;" href="#">Русский </a> </div>
+            <div class="en" onclick="location.href='bruschetta.en/en.html';">  <img class="img" src="img/en.png" alt=""><a style="margin-left: 10px;" href="#">English</a></div>
+        </div>
+    </body>
+</html>
